@@ -5,7 +5,7 @@ string[] array3 = { "Russia", "Denmark", "Kazan" };
 
 string Print(string[] arr)
 {
-    string result = "[" + string.Join(", ", arr) + "]";
+    string result = $"[{string.Join(", ", arr)}]";
     return result;
 }
 
